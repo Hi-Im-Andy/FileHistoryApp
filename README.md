@@ -2,7 +2,7 @@
 The code in this repo has undergone some changes as to not disclose sensitive information. This includes changing the use case, the directory, and some of the terms.
 
 # Production History upload
-This app is used to create a folder structure in a predetermined directory, then populates the created or appended folders with user input files. Thus, streamlining a teams ability to upload folders to a shared space and in turn, makes accessing files much more predictable. Additionally, this app is made to work alongside other apps used by other teams, hence the standardization and additional team folders created.
+This app is used to create a folder structure in a predetermined directory, then populates the created or appended folders with user input files. Thus, streamlining a teams (sales and/or customer service) ability to upload folders and files to a shared space in turn, makes accessing files much more predictable. Additionally, this app is made to work alongside other apps used by other teams, hence the standardization and additional team folders created.
 
 Ex. Recieving an email from a customer with multiple files attached then adding one's own paperwork to the customer files. Instead of manually creating a new folder for every customer, risking typos or variance in naming from user to user, they can all be placed in to one directory with a new folder created for every new customer files. If the customer sends more files for the same job, this app will add on to the existing files in its own folder to differentiate from the existing ones.
 
@@ -66,8 +66,19 @@ A similar check applies to the work order.
 
 ### File Uploads
 There are 2 different locations where a file will be uploaded to.
-The first location "Outside" is in the "02 - Work Order" folder for that respective tool number.
-The second location "Inside" is in the new or existing work order folder located within the "02 - Work Order" folder.
+The first location "Outside" is in the "02 Customer File History" folder for that respective tool number.
+The second location "Inside" is in the new or existing work order folder located within the "02 Customer File History" folder.
+
+Folder location
+- Tool Folder
+- - 01 Production Teams
+- - - Team 1
+- - - Team 2
+- - - Team 3
+- - - Team 4
+- - 02 Customer File History
+- - - Work Order
+- - - - Stock
 
 ![alt text](Images/Current_Files.png)
 
